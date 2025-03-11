@@ -1,0 +1,10 @@
+langchain-core
+langchain
+langchain-chroma
+langchain-community
+langchain-text-splitters
+langchain-ollama
+python-dotenv
+PyPDF2
+uuid
+cryptography>=3.1
