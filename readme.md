@@ -29,6 +29,11 @@ Ensure the **Ollama** server is running locally (example with WSL):
 ```bash
 ollama serve
 ```
+You can change model by modified code at models.py
+```python
+# Model LLM Ollama
+        self.model_ollama = ChatOllama(model="put your model LLM here", temperature=0, base_url=ollama_host)
+```
 
 ## Usage
 ### 1. Run the Ingestor to Add Documents
@@ -47,7 +52,7 @@ Use this chatbot to ask questions based on indexed documents.
 ```
 ├── data/                  # Folder for PDF documents
 ├── db/                    # ChromaDB storage folder
-├── models.py              # Ollama model used
+├── models.py              # Ollama model used (can be customized)
 ├── ingest.py              # Script for processing documents
 ├── chat.py                # Interactive chatbot
 ├── requirements.txt       # List of dependencies
