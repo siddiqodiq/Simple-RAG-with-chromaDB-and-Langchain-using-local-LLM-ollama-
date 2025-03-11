@@ -59,6 +59,6 @@ Use this chatbot to ask questions based on indexed documents.
 └── README.md              # Project documentation
 ```
 
-## License
-This project is licensed under MIT. Feel free to use and modify it as needed.
+## Documentation
+![image](https://github.com/user-attachments/assets/3f21b3fe-cbb0-4ebc-873e-4ee30ed2290f)
 
