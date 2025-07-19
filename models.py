@@ -12,7 +12,7 @@ class Models:
         self.embeddings_ollama = OllamaEmbeddings(model="nomic-embed-text", base_url=ollama_host)
 
         # Model LLM Ollama
-        self.model_ollama = ChatOllama(model="qwen2.5", temperature=0, base_url=ollama_host)
+        self.model_ollama = ChatOllama(model="pentest-ai", temperature=0, base_url=ollama_host)
 
 # Contoh penggunaan
 local_model = Models()
