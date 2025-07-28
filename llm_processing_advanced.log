@@ -1,0 +1,24 @@
+2025-07-28 10:01:03,505 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 10:01:09,742 - INFO - Use pytorch device: cpu
+2025-07-28 10:01:10,265 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-28 10:01:18,912 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:01:19,328 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:01:19,400 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:01:19,520 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:01:28,806 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:02:08,276 - INFO - Processed row 1: Question = What is the most effective technique for identifyi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:02:08,334 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:02:08,458 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:02:15,153 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:02:59,694 - INFO - Processed row 2: Question = When conducting a penetration test, what technique..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:02:59,766 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:02:59,887 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:02:59,980 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:03:00,157 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:03:06,046 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:03:45,481 - INFO - Processed row 3: Question = In the context of exploit development, what techni..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:03:45,544 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:03:45,716 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:03:45,839 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:03:45,947 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:03:53,379 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"

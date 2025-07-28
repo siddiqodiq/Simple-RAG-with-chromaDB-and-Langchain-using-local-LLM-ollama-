@@ -147,7 +147,7 @@ def generate_advanced_llm_answer(question, choices):
             }
 
 # Load dataset
-df = pd.read_excel("pentesting_dataset_modified.xlsx", engine="openpyxl")
+df = pd.read_excel("pentesting_dataset_test.xlsx", engine="openpyxl")
 
 # Prepare enhanced columns for Advanced RAG
 df["LLM_answer"] = None
@@ -212,7 +212,7 @@ for index, row in df.iterrows():
         print(f"💾 Auto-saved progress: {index + 1}/{len(df)} completed")
 
 # Final save with enhanced results
-output_filename = "advanced_rag_results.xlsx"
+output_filename = "advanced_rag_results_test.xlsx"
 df.to_excel(output_filename, index=False, engine="openpyxl")
 logging.info(f"Advanced RAG processing complete. Final results saved to '{output_filename}'.")
 
