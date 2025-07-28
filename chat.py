@@ -1,11 +1,16 @@
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning, module="torch.nn.modules.module")
+
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 from langchain_chroma import Chroma
-from models import Models
+from langchain.retrievers import ContextualCompressionRetriever
+from models import AdvancedModels
+from advanced_retriever import HybridRetriever, MultiQueryRetriever
 
-# Initialize the models
-models = Models()
+# Initialize the advanced models
+models = AdvancedModels()
 embeddings = models.embeddings_ollama
 llm = models.model_ollama
 
@@ -16,49 +21,134 @@ vector_store = Chroma(
     persist_directory="./db/chroma_langchain_db",  # Where to save data locally
 )
 
-# Define the chat prompt
+# Define the advanced chat prompt
 prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "You are an assistant. Your task is to answer questions based on the provided documents. "
-            "If the data is insufficient, you can supplement your answer with your own knowledge. "
-            "However, prioritize the provided data for accuracy."
+            "You are an expert cybersecurity assistant specializing in penetration testing and offensive security. "
+            "Your task is to provide comprehensive and accurate answers based on the provided documents. "
+            "The documents have been retrieved using advanced semantic and keyword search techniques, "
+            "and have been reranked for relevance to the user's question.\n\n"
+            "Guidelines:\n"
+            "1. Prioritize information from the provided context documents\n"
+            "2. If the context is insufficient, supplement with your cybersecurity expertise\n"
+            "3. Provide practical, actionable information\n"
+            "4. Include relevant commands, tools, or techniques when applicable\n"
+            "5. Mention the sources of your information when possible\n\n"
+            "Context: {context}"
         ),
-        ("human", "Question: {input}\n\nContext: {context}"),
+        ("human", "Question: {input}"),
     ]
 )
 
-# Define the retrieval chain
-retriever = vector_store.as_retriever(kwargs={"k": 10})  # Retrieve top 10 documents
+# Initialize Advanced Retrieval System
+def get_advanced_retriever(retrieval_mode="hybrid"):
+    """
+    Get advanced retriever based on mode.
+    Modes: 'hybrid', 'multi_query', 'compressed', 'naive'
+    """
+    if retrieval_mode == "hybrid":
+        # Hybrid Retriever (Dense + Sparse + Reranking)
+        return HybridRetriever(
+            vector_store=vector_store,
+            models=models,
+            dense_k=15,           # Retrieve 15 docs via semantic search
+            sparse_k=10,          # Retrieve 10 docs via BM25
+            final_k=8,            # Final top 8 after reranking
+            dense_weight=0.7,     # 70% weight for semantic search
+            sparse_weight=0.3,    # 30% weight for keyword search
+            enable_reranking=True,
+            enable_query_enhancement=True
+        )
+    
+    elif retrieval_mode == "multi_query":
+        # Multi-Query Retriever
+        base_retriever = vector_store.as_retriever(search_kwargs={"k": 10})
+        return MultiQueryRetriever(
+            base_retriever=base_retriever,
+            models=models,
+            num_queries=3
+        )
+    
+    elif retrieval_mode == "compressed":
+        # Contextual Compression Retriever
+        base_retriever = vector_store.as_retriever(search_kwargs={"k": 15})
+        return ContextualCompressionRetriever(
+            base_compressor=models.compressor,
+            base_retriever=base_retriever
+        )
+    
+    else:  # naive
+        # Original naive retriever
+        return vector_store.as_retriever(search_kwargs={"k": 10})
+
+# Select retrieval mode
+RETRIEVAL_MODE = "hybrid"  # Options: 'hybrid', 'multi_query', 'compressed', 'naive'
+retriever = get_advanced_retriever(RETRIEVAL_MODE)
+
+# Create advanced retrieval chain
 combine_docs_chain = create_stuff_documents_chain(llm, prompt)
 retrieval_chain = create_retrieval_chain(retriever, combine_docs_chain)
 
-# Main loop
+# Main loop with advanced features
 def main():
+    print(f"🚀 Advanced RAG Chat System Initialized!")
+    print(f"📊 Retrieval Mode: {RETRIEVAL_MODE.upper()}")
+    print(f"🔧 Features: Hybrid Search + Reranking + Query Enhancement")
+    print(f"📚 Database: ChromaDB with {vector_store._collection.count()} documents")
+    print("-" * 60)
+    
     while True:
-        query = input("User (or type 'q', 'quit', or 'exit' to end): ")
+        query = input("\n🔍 User (or type 'q', 'quit', or 'exit' to end): ")
         if query.lower() in ['q', 'quit', 'exit']:
             break
 
-        result = retrieval_chain.invoke({"input": query})
-        
-        # Check if RAG is used
-        if result["context"]:
-            print("\nAssistant is using Knowledge RAG to answer the question.")
-            # Display the source documents or chunks used
-            print("\nSources used for the answer:")
-            for i, doc in enumerate(result["context"]):
-                print(f"Source {i+1}:")
-                print(f"Document: {doc.metadata.get('source', 'Unknown')}")
-                print(f"Chunk: {doc.metadata.get('chunk_id', 'Unknown')}")
-                print(f"Content: {doc.page_content[:200]}...")  # Display first 200 characters of the chunk
-                print("-" * 50)
-        else:
-            print("\nAssistant is answering based on its own knowledge (no RAG).")
-        
-        # Display the answer
-        print("\nAssistant: ", result["answer"], "\n\n")
+        try:
+            print("⏳ Processing with Advanced RAG...")
+            result = retrieval_chain.invoke({"input": query})
+            
+            # Enhanced result display
+            if result["context"]:
+                print(f"\n✅ Assistant is using Advanced RAG (Mode: {RETRIEVAL_MODE.upper()})")
+                print(f"📄 Retrieved {len(result['context'])} relevant documents:")
+                print("\n" + "="*50 + " SOURCES " + "="*50)
+                
+                for i, doc in enumerate(result["context"]):
+                    print(f"\n📖 Source {i+1}:")
+                    print(f"   📁 Document: {doc.metadata.get('source', 'Unknown')}")
+                    print(f"   🆔 Chunk ID: {doc.metadata.get('chunk_id', 'Unknown')}")
+                    
+                    # Show retrieval metadata if available
+                    if 'retrieval_type' in doc.metadata:
+                        print(f"   🔍 Retrieval: {doc.metadata.get('retrieval_type', 'unknown')}")
+                    if 'retrieval_rank' in doc.metadata:
+                        print(f"   🏆 Rank: {doc.metadata.get('retrieval_rank', 'unknown')}")
+                    if 'source_query' in doc.metadata:
+                        print(f"   ❓ Query: {doc.metadata.get('source_query', 'unknown')}")
+                    
+                    print(f"   📝 Content: {doc.page_content[:200]}...")
+                    print("   " + "-"*80)
+                    
+            else:
+                print("\n⚠️  No relevant documents found. Using base model knowledge.")
+            
+            print("\n" + "="*50 + " ANSWER " + "="*50)
+            print(f"🤖 Assistant: {result['answer']}")
+            print("="*108)
+            
+        except Exception as e:
+            print(f"❌ Error: {e}")
+            print("🔄 Falling back to basic retrieval...")
+            
+            # Fallback to basic retrieval
+            try:
+                basic_retriever = vector_store.as_retriever(search_kwargs={"k": 5})
+                basic_chain = create_retrieval_chain(basic_retriever, combine_docs_chain)
+                result = basic_chain.invoke({"input": query})
+                print(f"🤖 Assistant (Basic): {result['answer']}")
+            except Exception as e2:
+                print(f"❌ Fallback also failed: {e2}")
 
 # Run the main loop
 if __name__ == "__main__":
