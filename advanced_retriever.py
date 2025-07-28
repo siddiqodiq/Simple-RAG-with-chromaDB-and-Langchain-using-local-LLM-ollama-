@@ -96,7 +96,7 @@ class HybridRetriever(BaseRetriever):
         """Dense retrieval menggunakan semantic search."""
         try:
             retriever = self.vector_store.as_retriever(search_kwargs={"k": k})
-            docs = retriever.get_relevant_documents(query)
+            docs = retriever.invoke(query)
             return docs
         except Exception as e:
             print(f"Error in dense retrieval: {e}")
@@ -281,7 +281,7 @@ class MultiQueryRetriever(BaseRetriever):
         # Retrieve for each query
         for q in queries:
             try:
-                docs = self.base_retriever.get_relevant_documents(q)
+                docs = self.base_retriever.invoke(q)
                 
                 # Deduplicate
                 for doc in docs:
