@@ -22,3 +22,11 @@
 2025-07-28 10:03:45,839 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-07-28 10:03:45,947 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-07-28 10:03:53,379 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:04:14,431 - INFO - Processed row 4: Question = In the context of developing an exploit for a remo..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:04:14,732 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:04:14,905 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:04:15,072 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:04:15,208 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:04:23,813 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:04:50,530 - INFO - Processed row 5: Question = In the context of modern exploit development for b..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:04:50,671 - INFO - Advanced RAG processing complete. Final results saved to 'advanced_rag_results_test.xlsx'.
