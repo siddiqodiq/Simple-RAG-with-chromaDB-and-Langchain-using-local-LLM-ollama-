@@ -28,26 +28,18 @@ vector_store = Chroma(
 
 # Define the advanced chat prompt for cybersecurity
 prompt = ChatPromptTemplate.from_messages(
-    [
+      [
         (
             "system",
-            "You are an expert cybersecurity consultant specializing in penetration testing and offensive security. "
-            "You have access to comprehensive cybersecurity documentation that has been retrieved using advanced "
-            "semantic search and reranking techniques for maximum relevance.\n\n"
-            "Your task is to analyze multiple-choice cybersecurity questions and provide expert answers:\n"
-            "1. Analyze the question thoroughly using the provided context\n"
-            "2. Consider all multiple-choice options carefully\n"
-            "3. Select the most technically accurate answer\n"
-            "4. Provide a detailed explanation covering:\n"
-            "   - Why the selected answer is correct\n"
-            "   - Why other options are incorrect or less optimal\n"
-            "   - Relevant tools, techniques, or commands\n"
-            "   - Real-world application scenarios\n"
-            "5. Reference specific information from the context when available\n"
-            "6. Apply your cybersecurity expertise to supplement the context\n\n"
-            "Context from Advanced RAG Retrieval:\n{context}"
+            "You are a cybersecurity expert assisting with penetration testing (pentesting) questions. "
+            "Each question will be followed by multiple-choice options. Your task is to:\n"
+            "1. Analyze the question and the provided options using the context provided.\n"
+            "2. Select the most appropriate answer from the options.\n"
+            "3. Provide a clear and concise explanation for why the selected answer is correct.\n"
+            "4. If the context is not sufficient, use your own knowledge to answer.\n"
+            "\nContext: {context}"
         ),
-        ("human", "Cybersecurity Question: {input}\n\nMultiple Choice Options: {choices}\n\nPlease provide your expert analysis and answer."),
+        ("human", "Question: {input}\nOptions: {choices}"),
     ]
 )
 
@@ -147,7 +139,7 @@ def generate_advanced_llm_answer(question, choices):
             }
 
 # Load dataset
-df = pd.read_excel("pentesting_dataset_test.xlsx", engine="openpyxl")
+df = pd.read_excel("pentesting_dataset_modified.xlsx", engine="openpyxl")
 
 # Prepare enhanced columns for Advanced RAG
 df["LLM_answer"] = None
@@ -212,7 +204,7 @@ for index, row in df.iterrows():
         print(f"💾 Auto-saved progress: {index + 1}/{len(df)} completed")
 
 # Final save with enhanced results
-output_filename = "advanced_rag_results_test.xlsx"
+output_filename = "advanced_rag_results_full.xlsx"
 df.to_excel(output_filename, index=False, engine="openpyxl")
 logging.info(f"Advanced RAG processing complete. Final results saved to '{output_filename}'.")
 

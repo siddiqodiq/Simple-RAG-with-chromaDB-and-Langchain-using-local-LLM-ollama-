@@ -30,3 +30,1332 @@
 2025-07-28 10:04:23,813 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-07-28 10:04:50,530 - INFO - Processed row 5: Question = In the context of modern exploit development for b..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
 2025-07-28 10:04:50,671 - INFO - Advanced RAG processing complete. Final results saved to 'advanced_rag_results_test.xlsx'.
+2025-07-28 10:08:01,611 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 10:11:13,861 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 10:11:20,545 - INFO - Use pytorch device: cpu
+2025-07-28 10:11:21,107 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-28 10:11:22,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:11:22,609 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:11:22,779 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:11:22,956 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:12:31,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:13:00,671 - INFO - Processed row 1: Question = What is the most effective technique for identifyi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:13:03,535 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:13:03,622 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:13:09,144 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:13:39,242 - INFO - Processed row 2: Question = When conducting a penetration test, what technique..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:13:39,319 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:13:39,470 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:13:39,566 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:13:39,694 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:13:46,448 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:14:05,183 - INFO - Processed row 3: Question = In the context of exploit development, what techni..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:14:05,255 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:14:05,370 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:14:05,519 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:14:05,663 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:14:11,080 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:14:30,189 - INFO - Processed row 4: Question = In the context of developing an exploit for a remo..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:14:30,241 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:14:30,404 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:14:30,526 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:14:30,678 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:14:36,012 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:14:56,314 - INFO - Processed row 5: Question = In the context of modern exploit development for b..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:14:56,589 - INFO - Advanced RAG processing complete. Final results saved to 'advanced_rag_results_test.xlsx'.
+2025-07-28 10:18:48,988 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 10:18:55,170 - INFO - Use pytorch device: cpu
+2025-07-28 10:18:55,712 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-28 10:18:57,333 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:18:57,702 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:18:57,872 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:18:58,008 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:19:08,789 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:19:37,169 - INFO - Processed row 1: Question = What is the most effective technique for identifyi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:19:37,219 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:19:37,307 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:19:42,639 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:20:13,898 - INFO - Processed row 2: Question = When conducting a penetration test, what technique..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:20:13,954 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:20:14,061 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:20:14,209 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:20:14,326 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:20:20,879 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:20:38,695 - INFO - Processed row 3: Question = In the context of exploit development, what techni..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:20:38,768 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:20:38,882 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:20:39,043 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:20:39,196 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:20:44,732 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:21:07,131 - INFO - Processed row 4: Question = In the context of developing an exploit for a remo..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:21:07,211 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:21:07,401 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:21:07,540 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:21:07,672 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:21:13,083 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:21:32,685 - INFO - Processed row 5: Question = In the context of modern exploit development for b..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:21:32,735 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:21:32,855 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:21:33,031 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:21:33,131 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:21:40,278 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:22:11,251 - INFO - Processed row 6: Question = What is the underlying cause of the Heartbleed vul..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:22:11,316 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:22:11,443 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:22:11,570 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:22:11,698 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:22:18,126 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:22:58,981 - INFO - Processed row 7: Question = In the context of malware analysis, which techniqu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:22:59,043 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:22:59,176 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:23:04,783 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:23:42,246 - INFO - Processed row 8: Question = In the context of exploit development for buffer o..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:23:42,356 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:23:42,481 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:23:42,603 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:23:42,761 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:23:48,313 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:24:34,654 - INFO - Processed row 9: Question = In the context of developing an exploit for a buff..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:24:34,716 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:24:34,839 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:24:40,514 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:25:13,344 - INFO - Processed row 10: Question = In the context of buffer overflow vulnerabilities,..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:25:13,685 - INFO - Temporarily saved Advanced RAG results up to row 10.
+2025-07-28 10:25:13,741 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:25:13,846 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:25:19,913 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:25:51,284 - INFO - Processed row 11: Question = In a red team operation, what tactic is most effec..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:25:51,360 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:25:51,535 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:25:51,653 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:25:51,765 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:25:58,171 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:26:28,430 - INFO - Processed row 12: Question = During a penetration testing exercise on a web app..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:26:28,482 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:26:28,597 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:26:28,774 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:26:28,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:26:35,742 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:27:10,610 - INFO - Processed row 13: Question = In a penetration testing scenario, if an attacker ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:27:10,678 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:27:10,817 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:27:10,995 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:27:11,116 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:27:17,656 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:27:30,894 - INFO - Processed row 14: Question = In an advanced persistent threat (APT) scenario ta..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:27:30,943 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:27:31,047 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:27:36,674 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:28:02,495 - INFO - Processed row 15: Question = In a red team operation, which tactic is most effe..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:28:02,547 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:28:02,660 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:28:09,473 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:28:46,190 - INFO - Processed row 16: Question = In the context of exploit development, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:28:46,238 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:28:46,371 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:28:52,351 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:29:26,450 - INFO - Processed row 17: Question = In the context of designing a remote access tool (..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:29:26,500 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:29:26,581 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:29:31,740 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:29:45,566 - INFO - Processed row 18: Question = Which technique would be most effective for identi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:29:45,631 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:29:45,743 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:29:54,376 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:30:32,465 - INFO - Processed row 19: Question = Which command line invocation would correctly gene..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:30:32,529 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:30:32,616 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:30:37,632 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:31:08,146 - INFO - Processed row 20: Question = In a red team operation, which tool is most approp..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:31:08,364 - INFO - Temporarily saved Advanced RAG results up to row 20.
+2025-07-28 10:31:08,471 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:31:08,580 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:31:15,179 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:31:52,391 - INFO - Processed row 21: Question = In a sophisticated red team operation, what techni..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:31:52,444 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:31:52,557 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:31:52,696 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:31:52,889 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:31:59,120 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:32:22,179 - INFO - Processed row 22: Question = Which vulnerability is most typically exploited by..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:32:22,239 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:32:22,331 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:32:22,459 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:32:22,553 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:32:29,132 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:32:48,334 - INFO - Processed row 23: Question = During a red team engagement, which vulnerability ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:32:48,408 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:32:48,524 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:32:48,620 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:32:48,758 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:32:58,050 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:33:18,992 - INFO - Processed row 24: Question = In exploitation, which technique often allows atta..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:33:19,052 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:33:19,167 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:33:19,335 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:33:19,444 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:33:26,073 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:34:04,228 - INFO - Processed row 25: Question = In exploit development, which vulnerability type i..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:34:04,300 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:34:04,413 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:34:11,384 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:34:42,557 - INFO - Processed row 26: Question = In exploit development, what technique is commonly..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:34:42,634 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:34:42,779 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:34:42,949 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:34:43,110 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:34:50,853 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:35:28,368 - INFO - Processed row 27: Question = Which technique would most effectively allow an at..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:35:28,429 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:35:28,566 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:35:28,732 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:35:28,915 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:35:36,544 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:36:13,297 - INFO - Processed row 28: Question = In the context of exploit development, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:36:13,360 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:36:13,486 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:36:20,066 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:36:49,887 - INFO - Processed row 29: Question = In an advanced persistent threat (APT) scenario, w..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:36:49,954 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:36:50,079 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:36:50,231 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:36:50,386 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:36:56,835 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:37:41,169 - INFO - Processed row 30: Question = In a targeted attack against a corporate network, ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:37:41,308 - INFO - Temporarily saved Advanced RAG results up to row 30.
+2025-07-28 10:37:41,355 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:37:41,463 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:37:41,608 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:37:41,750 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:37:48,453 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:38:30,387 - INFO - Processed row 31: Question = In the context of malware analysis, what technique..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:38:30,450 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:38:30,615 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:38:30,727 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:38:30,842 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:38:37,720 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:39:08,207 - INFO - Processed row 32: Question = In the context of malware analysis, which method i..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:39:08,274 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:39:08,397 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:39:14,926 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:39:53,795 - INFO - Processed row 33: Question = In a red team operation, which technique would mos..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:39:53,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:39:53,974 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:39:54,140 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:39:54,310 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:40:00,935 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:40:29,762 - INFO - Processed row 34: Question = In the context of penetration testing, if an attac..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:40:29,825 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:40:29,905 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:40:30,020 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:40:30,135 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:40:35,552 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:41:09,897 - INFO - Processed row 35: Question = When analyzing a new piece of malware, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:41:09,951 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:41:10,059 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:41:10,208 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:41:10,362 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:41:18,403 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:42:03,844 - INFO - Processed row 36: Question = In the context of analyzing a sophisticated piece ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:42:03,919 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:42:04,135 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:42:04,264 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:42:04,441 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:42:10,497 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:42:45,061 - INFO - Processed row 37: Question = In the context of automated vulnerability detectio..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:42:45,118 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:42:45,232 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:42:45,318 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:42:45,452 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:42:51,491 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:43:21,723 - INFO - Processed row 38: Question = In the context of exploit development and red team..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:43:21,789 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:43:21,879 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:43:22,007 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:43:22,129 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:43:27,852 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:43:54,296 - INFO - Processed row 39: Question = In the context of malware analysis, which techniqu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:43:54,348 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:43:54,481 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:44:00,755 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:44:22,509 - INFO - Processed row 40: Question = In the context of web application security, which ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:44:22,636 - INFO - Temporarily saved Advanced RAG results up to row 40.
+2025-07-28 10:44:22,704 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:44:22,939 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:44:23,133 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:44:23,311 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:44:31,089 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:44:56,777 - INFO - Processed row 41: Question = In an exploit development scenario, if an attacker..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:44:56,833 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:44:56,917 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:44:57,054 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:44:57,181 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:45:02,449 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:45:17,331 - INFO - Processed row 42: Question = Which technique is most effective for dynamically ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:45:17,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:45:17,519 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:45:17,681 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:45:17,838 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:45:23,809 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:45:48,300 - INFO - Processed row 43: Question = During a penetration testing engagement, what acti..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:45:48,403 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:45:48,523 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:45:54,603 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:46:15,206 - INFO - Processed row 44: Question = In the context of exploitation techniques, which m..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:46:15,281 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:46:15,403 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:46:15,557 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:46:15,674 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:46:21,585 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:46:52,945 - INFO - Processed row 45: Question = In the context of an advanced persistent threat (A..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:46:53,008 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:46:53,164 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:46:53,374 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:46:53,523 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:47:00,754 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:47:18,854 - INFO - Processed row 46: Question = Which attack technique can be used to circumvent t..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:47:18,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:47:19,075 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:47:24,305 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:47:51,255 - INFO - Processed row 47: Question = In the context of an advanced persistent threat (A..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:47:51,330 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:47:51,438 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:47:51,614 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:47:51,720 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:47:58,514 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:48:30,472 - INFO - Processed row 48: Question = In a penetration testing scenario, if the objectiv..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:48:30,531 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:48:30,667 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:48:30,811 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:48:30,963 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:48:37,009 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:48:50,440 - INFO - Processed row 49: Question = During a red team exercise, you are tasked with ex..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:48:50,498 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:48:50,596 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:48:50,678 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:48:50,843 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:48:57,883 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:49:32,953 - INFO - Processed row 50: Question = In a penetration testing assignment aimed at evalu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:49:33,077 - INFO - Temporarily saved Advanced RAG results up to row 50.
+2025-07-28 10:49:33,143 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:49:33,286 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:49:33,407 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:49:33,520 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:49:39,116 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:49:56,611 - INFO - Processed row 51: Question = Which technique would likely be most effective for..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:49:56,666 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:49:56,804 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:49:56,926 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:49:57,096 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:50:02,907 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:50:28,652 - INFO - Processed row 52: Question = During a web application penetration test, if the ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:50:28,705 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:50:28,822 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:50:28,972 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:50:29,121 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:50:35,160 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:51:05,219 - INFO - Processed row 53: Question = During a web application penetration testing sessi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:51:05,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:51:05,392 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:51:05,571 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:51:05,688 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:51:11,328 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:51:32,856 - INFO - Processed row 54: Question = During a red team engagement, you aim to exploit a..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:51:32,915 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:51:33,028 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:51:33,178 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:51:33,324 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:51:40,515 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:52:19,900 - INFO - Processed row 55: Question = Which technique is most effective in preventing Re..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:52:19,959 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:52:20,069 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:52:25,826 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:52:58,236 - INFO - Processed row 56: Question = When preparing for a red team operation, which tec..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:52:58,295 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:52:58,392 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:53:03,768 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:53:26,292 - INFO - Processed row 57: Question = In conducting a red team exercise, what technique ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:53:26,354 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:53:26,463 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:53:26,592 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:53:26,750 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:53:32,065 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:53:42,148 - INFO - Processed row 58: Question = In the context of web security, which attack can b..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:53:42,212 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:53:42,304 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:53:47,567 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:54:13,767 - INFO - Processed row 59: Question = In an advanced persistent threat (APT) campaign, w..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:54:13,812 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:54:13,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:54:14,119 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:54:14,252 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:54:20,692 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:54:49,771 - INFO - Processed row 60: Question = In a penetration testing scenario, which technique..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:54:49,897 - INFO - Temporarily saved Advanced RAG results up to row 60.
+2025-07-28 10:54:49,949 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:54:50,060 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:54:55,301 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:55:25,665 - INFO - Processed row 61: Question = When conducting a red team action aimed at breakin..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:55:25,712 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:55:25,849 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:55:31,289 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:55:55,870 - INFO - Processed row 62: Question = In an advanced persistent threat (APT) scenario, w..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:55:55,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:55:56,054 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:55:56,178 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:55:56,291 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:56:01,805 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:56:19,401 - INFO - Processed row 63: Question = In the context of sophisticated malware design, wh..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:56:19,468 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:56:19,561 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:56:24,381 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:56:48,581 - INFO - Processed row 64: Question = In a red team engagement, if the objective is to e..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:56:48,637 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:56:48,746 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:56:48,878 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:56:49,009 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:56:54,348 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:57:18,064 - INFO - Processed row 65: Question = In the context of advanced malware analysis, which..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:57:18,128 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:57:18,247 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:57:18,350 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:57:18,454 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:57:23,938 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:57:53,038 - INFO - Processed row 66: Question = In a penetration testing scenario, which payload w..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:57:53,087 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:57:53,217 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:57:58,087 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:58:27,471 - INFO - Processed row 67: Question = In a red team operation, what would be the most ef..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:58:27,522 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:58:27,638 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:58:27,822 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:58:27,948 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:58:34,148 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:58:49,424 - INFO - Processed row 68: Question = During a red teaming engagement, which technique w..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:58:49,479 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:58:49,618 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:58:49,763 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:58:49,889 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:58:55,171 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:59:08,728 - INFO - Processed row 69: Question = In the context of exploiting a buffer overflow vul..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:59:08,778 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:59:08,874 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:59:09,000 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:59:09,134 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:59:14,243 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 10:59:42,421 - INFO - Processed row 70: Question = Which vulnerability is most effectively exploited ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 10:59:42,529 - INFO - Temporarily saved Advanced RAG results up to row 70.
+2025-07-28 10:59:42,578 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:59:42,660 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:59:42,794 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:59:42,884 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 10:59:50,054 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:00:09,604 - INFO - Processed row 71: Question = In advanced malware analysis, which technique is m..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:00:09,657 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:00:09,795 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:00:14,851 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:00:37,273 - INFO - Processed row 72: Question = When conducting a red teaming exercise, which of t..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:00:37,346 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:00:37,436 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:00:37,570 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:00:37,693 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:00:43,327 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:01:11,244 - INFO - Processed row 73: Question = When performing security code reviews, which vulne..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:01:11,294 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:01:11,414 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:01:11,541 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:01:11,667 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:01:17,372 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:01:47,033 - INFO - Processed row 74: Question = When conducting an advanced penetration test again..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:01:47,096 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:01:47,161 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:01:51,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:02:17,364 - INFO - Processed row 75: Question = Which technique is most effective for identifying ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:02:17,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:02:17,532 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:02:22,999 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:02:44,718 - INFO - Processed row 76: Question = During exploit development, what technique is spec..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:02:44,781 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:02:44,870 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:02:44,986 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:02:45,104 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:02:50,323 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:03:24,316 - INFO - Processed row 77: Question = In the context of malware distribution and infecti..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:03:24,361 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:03:24,492 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:03:29,557 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:03:49,153 - INFO - Processed row 78: Question = In a red team engagement, which tool would be most..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:03:49,199 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:03:49,290 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:03:49,423 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:03:49,553 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:03:55,363 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:04:12,464 - INFO - Processed row 79: Question = In the context of exploit development, which vulne..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:04:12,510 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:04:12,644 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:04:18,530 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:04:43,401 - INFO - Processed row 80: Question = In the context of network security, which of the f..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:04:43,512 - INFO - Temporarily saved Advanced RAG results up to row 80.
+2025-07-28 11:04:43,624 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:04:43,766 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:04:43,978 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:04:44,168 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:04:49,623 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:05:11,937 - INFO - Processed row 81: Question = During a penetration test, you notice that an appl..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:05:11,983 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:05:12,109 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:05:17,824 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:05:43,740 - INFO - Processed row 82: Question = In the context of exploit development, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:05:43,880 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:05:44,029 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:05:50,194 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:06:12,628 - INFO - Processed row 83: Question = During an internal red team exercise, which tool w..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:06:12,674 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:06:12,832 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:06:12,976 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:06:13,115 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:06:20,249 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:06:48,911 - INFO - Processed row 84: Question = In a penetration testing scenario, if a tester wan..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:06:48,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:06:49,071 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:06:53,969 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:07:17,144 - INFO - Processed row 85: Question = In the context of red team operations, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:07:17,193 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:07:17,336 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:07:22,976 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:07:45,534 - INFO - Processed row 86: Question = In a red team operation, which tool is primarily u..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:07:45,584 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:07:45,687 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:07:45,778 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:07:45,934 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:07:50,933 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:08:17,373 - INFO - Processed row 87: Question = During a red team exercise, if the objective inclu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:08:17,427 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:08:17,523 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:08:17,700 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:08:17,816 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:08:22,963 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:08:43,014 - INFO - Processed row 88: Question = In the context of advanced persistent threats (APT..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:08:43,067 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:08:43,172 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:08:43,288 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:08:43,354 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:08:49,111 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:09:23,931 - INFO - Processed row 89: Question = Which technique is specifically designed to protec..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:09:23,972 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:09:24,119 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:09:29,193 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:10:02,824 - INFO - Processed row 90: Question = In the context of buffer overflow exploitation, wh..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:10:02,933 - INFO - Temporarily saved Advanced RAG results up to row 90.
+2025-07-28 11:10:02,973 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:10:03,106 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:10:08,722 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:10:30,493 - INFO - Processed row 91: Question = In the context of exploit development, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:10:30,559 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:10:30,637 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:10:30,770 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:10:30,891 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:10:37,763 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:11:11,115 - INFO - Processed row 92: Question = In the context of penetration testing, which metho..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:11:11,172 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:11:11,268 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:11:11,403 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:11:11,549 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:11:18,340 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:11:42,159 - INFO - Processed row 93: Question = In the context of cryptographic secure transport l..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:11:42,205 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:11:42,333 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:11:42,475 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:11:42,565 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:11:48,304 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:12:08,864 - INFO - Processed row 94: Question = In the context of advanced malware analysis, what ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:12:08,909 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:12:09,053 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:12:09,179 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:12:09,315 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:12:15,174 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:12:46,083 - INFO - Processed row 95: Question = When developing an exploit for a buffer overflow v..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:12:46,125 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:12:46,259 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:12:46,371 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:12:46,494 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:12:52,253 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:13:15,401 - INFO - Processed row 96: Question = In penetration testing, which tool is primarily us..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:13:15,439 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:13:15,562 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:13:21,106 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:13:37,965 - INFO - Processed row 97: Question = In the context of modern exploit development, whic..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:13:38,006 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:13:38,178 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:13:44,133 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:14:03,549 - INFO - Processed row 98: Question = Which technique would be most effective for a pene..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:14:03,590 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:14:03,723 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:14:03,860 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:14:03,994 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:14:08,894 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:14:35,507 - INFO - Processed row 99: Question = In an advanced malware campaign, what technique wo..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:14:35,554 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:14:35,645 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:14:41,465 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:15:15,631 - INFO - Processed row 100: Question = Which exploitation technique is most effective for..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:15:15,743 - INFO - Temporarily saved Advanced RAG results up to row 100.
+2025-07-28 11:15:15,793 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:15:15,884 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:15:21,435 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:15:46,517 - INFO - Processed row 101: Question = In the context of advanced persistent threat (APT)..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:15:46,567 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:15:46,661 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:15:52,203 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:16:19,326 - INFO - Processed row 102: Question = In a red team operation aimed at testing an organi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:16:19,372 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:16:19,494 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:16:25,251 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:16:47,030 - INFO - Processed row 103: Question = Which technique is most effective for maintaining ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:16:47,073 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:16:47,218 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:16:47,363 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:16:47,504 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:16:52,855 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:17:16,200 - INFO - Processed row 104: Question = In the context of developing an exploit for a buff..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:17:16,241 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:17:16,362 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:17:16,485 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:17:16,602 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:17:22,062 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:17:45,070 - INFO - Processed row 105: Question = Which of the following attack techniques would mos..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:17:45,121 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:17:45,236 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:17:45,369 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:17:45,519 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:17:52,010 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:18:20,465 - INFO - Processed row 106: Question = In an advanced persistent threat (APT) attack scen..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:18:20,519 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:18:20,615 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:18:20,760 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:18:20,901 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:18:27,214 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:18:51,803 - INFO - Processed row 107: Question = In the context of malware reverse engineering, whi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:18:51,844 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:18:51,981 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:18:52,102 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:18:52,226 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:18:58,422 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:19:20,083 - INFO - Processed row 108: Question = Which attack method can be particularly effective ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:19:20,126 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:19:20,243 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:19:25,259 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:19:57,161 - INFO - Processed row 109: Question = In advanced red team engagements, what technique i..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:19:57,209 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:19:57,337 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:20:04,479 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:20:29,505 - INFO - Processed row 110: Question = In the context of using Metasploit during a red te..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:20:29,632 - INFO - Temporarily saved Advanced RAG results up to row 110.
+2025-07-28 11:20:29,672 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:20:29,797 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:20:29,927 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:20:30,048 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:20:35,326 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:21:02,281 - INFO - Processed row 111: Question = In the context of reverse engineering malware, whi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:21:02,323 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:21:02,446 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:21:02,557 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:21:02,684 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:21:08,270 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:21:26,072 - INFO - Processed row 112: Question = In exploitation development, which vulnerability t..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:21:26,115 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:21:26,248 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:21:31,109 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:22:01,995 - INFO - Processed row 113: Question = During a red team engagement, if the objective is ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:22:02,042 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:22:02,174 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:22:02,294 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:22:02,439 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:22:07,550 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:22:37,397 - INFO - Processed row 114: Question = Which technique can be effectively used as a defen..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:22:37,442 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:22:37,608 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:22:37,696 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:22:37,838 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:22:42,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:23:13,971 - INFO - Processed row 115: Question = During a red team operation aimed at obtaining sen..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:23:14,011 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:23:14,168 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:23:14,313 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:23:14,447 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:23:19,804 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:23:52,562 - INFO - Processed row 116: Question = In the context of malware analysis, which techniqu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:23:52,601 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:23:52,741 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:23:59,507 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:24:45,011 - INFO - Processed row 117: Question = In the context of modern software exploitation, wh..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:24:45,058 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:24:45,204 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:24:45,340 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:24:45,491 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:24:50,884 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:25:05,641 - INFO - Processed row 118: Question = Which tool would be most appropriate for a cyberse..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:25:05,682 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:25:05,815 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:25:05,891 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:25:06,018 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:25:12,008 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:25:33,798 - INFO - Processed row 119: Question = Which tool is most appropriate for malware analysi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:25:33,845 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:25:33,977 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:25:34,124 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:25:34,260 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:25:39,571 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:26:09,776 - INFO - Processed row 120: Question = In the context of advanced persistent threat (APT)..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:26:09,895 - INFO - Temporarily saved Advanced RAG results up to row 120.
+2025-07-28 11:26:09,934 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:26:10,082 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:26:15,858 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:26:35,397 - INFO - Processed row 121: Question = In an internal network penetration test scenario, ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:26:35,447 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:26:35,580 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:26:40,350 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:26:52,154 - INFO - Processed row 122: Question = In the context of red team engagements, which tact..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:26:52,193 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:26:52,317 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:26:52,430 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:26:52,560 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:26:58,964 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:27:20,256 - INFO - Processed row 123: Question = Which type of vulnerability is most commonly explo..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:27:20,306 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:27:20,384 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:27:20,505 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:27:20,643 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:27:26,390 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:28:00,461 - INFO - Processed row 124: Question = Which mitigation technique would most effectively ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:28:00,507 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:00,596 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:05,954 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:28:19,861 - INFO - Processed row 125: Question = In the context of a red team operation, which tool..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:28:19,914 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:19,987 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:20,130 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:20,221 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:25,113 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:28:45,031 - INFO - Processed row 126: Question = In a red team operation, what approach would most ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:28:45,085 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:45,227 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:45,299 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:45,432 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:28:51,846 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:29:11,014 - INFO - Processed row 127: Question = In a scenario where an attacker manipulates the re..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:29:11,056 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:29:11,222 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:29:11,391 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:29:11,501 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:29:17,089 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:29:38,657 - INFO - Processed row 128: Question = During a red team exercise, if the objective is to..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:29:38,706 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:29:38,829 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:29:38,965 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:29:39,102 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:29:44,460 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:30:10,846 - INFO - Processed row 129: Question = When attempting to identify and analyze encrypted ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:30:10,888 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:11,033 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:11,156 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:11,274 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:16,295 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:30:32,447 - INFO - Processed row 130: Question = During a red team operation, which vulnerability w..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:30:32,593 - INFO - Temporarily saved Advanced RAG results up to row 130.
+2025-07-28 11:30:32,639 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:32,729 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:32,862 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:33,005 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:38,056 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:30:49,667 - INFO - Processed row 131: Question = Which technique would be most effective for an att..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:30:49,709 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:49,871 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:50,033 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:50,146 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:30:55,893 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:31:18,820 - INFO - Processed row 132: Question = During a penetration testing assignment, you suspe..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:31:18,858 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:31:18,992 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:31:19,069 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:31:19,207 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:31:24,751 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:31:54,026 - INFO - Processed row 133: Question = In the process of malware analysis, which techniqu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:31:54,069 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:31:54,223 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:31:54,312 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:31:54,471 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:32:00,475 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:32:30,200 - INFO - Processed row 134: Question = In a penetration testing scenario, if an attacker ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:32:30,245 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:32:30,377 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:32:35,789 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:33:01,896 - INFO - Processed row 135: Question = Which of the following vulnerabilities is most lik..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:33:01,941 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:33:02,033 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:33:06,844 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:33:36,099 - INFO - Processed row 136: Question = In a red team operation designed to test the resil..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:33:36,143 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:33:36,296 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:33:36,457 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:33:36,631 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:33:41,928 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:34:02,056 - INFO - Processed row 137: Question = In penetration testing, what type of vulnerability..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:34:02,111 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:34:02,252 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:34:02,386 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:34:02,525 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:34:07,270 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:34:35,267 - INFO - Processed row 138: Question = In the context of advanced persistent threats (APT..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:34:35,305 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:34:35,429 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:34:35,562 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:34:35,715 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:34:40,585 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:35:08,157 - INFO - Processed row 139: Question = In the context of web application security, which ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:35:08,199 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:35:08,342 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:35:08,486 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:35:08,621 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:35:14,547 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:35:36,835 - INFO - Processed row 140: Question = In an exploit development scenario, which techniqu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:35:36,967 - INFO - Temporarily saved Advanced RAG results up to row 140.
+2025-07-28 11:35:37,008 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:35:37,154 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:35:37,298 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:35:37,440 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:35:43,678 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:36:02,819 - INFO - Processed row 141: Question = In a penetration test targeting a company's intern..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:36:02,859 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:03,002 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:03,156 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:03,280 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:08,487 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:36:30,853 - INFO - Processed row 142: Question = In a penetration testing scenario aiming to gain u..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:36:30,898 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:30,983 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:31,112 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:31,236 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:36,311 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:36:45,092 - INFO - Processed row 143: Question = Which technique is most suitable for exploiting a ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:36:45,133 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:45,266 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:36:50,799 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:37:12,118 - INFO - Processed row 144: Question = When conducting a penetration test, if the goal is..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:37:12,167 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:37:12,296 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:37:12,446 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:37:12,580 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:37:18,164 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:37:52,088 - INFO - Processed row 145: Question = During a red team operation, which vulnerability s..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:37:52,133 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:37:52,270 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:37:56,738 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:38:21,535 - INFO - Processed row 146: Question = During a red team operation, which of the followin..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:38:21,584 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:38:21,652 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:38:27,940 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:39:18,539 - INFO - Processed row 147: Question = Which of the following techniques can not be direc..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:39:18,581 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:39:18,679 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:39:18,828 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:39:18,921 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:39:24,955 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:39:51,404 - INFO - Processed row 148: Question = During a penetration testing engagement, if an att..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:39:51,457 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:39:51,622 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:39:57,232 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:40:31,002 - INFO - Processed row 149: Question = In the context of exploit development, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:40:31,042 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:40:31,182 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:40:31,307 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:40:31,426 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:40:36,832 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:40:55,717 - INFO - Processed row 150: Question = When conducting malware analysis, what is the most..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:40:55,833 - INFO - Temporarily saved Advanced RAG results up to row 150.
+2025-07-28 11:40:55,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:40:56,003 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:41:02,190 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:41:27,902 - INFO - Processed row 151: Question = Which tool is primarily used by red teamers for de..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:41:27,943 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:41:28,080 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:41:28,165 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:41:28,293 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:41:33,432 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:41:49,352 - INFO - Processed row 152: Question = In the context of detecting Advanced Persistent Th..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:41:49,391 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:41:49,521 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:41:54,271 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:42:18,039 - INFO - Processed row 153: Question = In a red team operation, what technique would like..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:42:18,078 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:42:18,207 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:42:18,332 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:42:18,458 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:42:24,349 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:42:49,099 - INFO - Processed row 154: Question = In penetration testing and exploit development, wh..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:42:49,155 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:42:49,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:42:49,407 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:42:49,538 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:42:55,127 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:43:08,321 - INFO - Processed row 155: Question = In penetration testing, which technique would be m..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:43:08,370 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:43:08,497 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:43:14,215 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:43:38,485 - INFO - Processed row 156: Question = In the context of reverse engineering, what is a c..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:43:38,526 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:43:38,651 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:43:38,781 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:43:38,911 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:43:44,014 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:44:04,096 - INFO - Processed row 157: Question = In exploit development, which type of vulnerabilit..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:44:04,146 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:44:04,244 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:44:04,402 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:44:04,544 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:44:10,512 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:44:40,219 - INFO - Processed row 158: Question = Which of the following vulnerabilities was primari..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:44:40,277 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:44:40,390 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:44:46,024 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:45:09,226 - INFO - Processed row 159: Question = In the context of advanced persistent threats, wha..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:45:09,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:45:09,361 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:45:14,318 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:45:35,153 - INFO - Processed row 160: Question = During a red team operation, what technique would ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:45:35,259 - INFO - Temporarily saved Advanced RAG results up to row 160.
+2025-07-28 11:45:35,299 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:45:35,448 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:45:35,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:45:35,696 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:45:41,017 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:46:11,470 - INFO - Processed row 161: Question = In an advanced penetration testing operation, whic..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:46:11,518 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:46:11,634 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:46:11,784 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:46:11,939 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:46:18,146 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:46:44,213 - INFO - Processed row 162: Question = In the context of penetration testing, which explo..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:46:44,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:46:44,417 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:46:50,230 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:47:18,582 - INFO - Processed row 163: Question = In the context of red team operations, which activ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:47:18,633 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:47:18,778 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:47:23,993 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:47:45,240 - INFO - Processed row 164: Question = When assessing a custom application for vulnerabil..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:47:45,296 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:47:45,411 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:47:45,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:47:45,722 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:47:52,492 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:48:05,560 - INFO - Processed row 165: Question = Which vulnerability is primarily targeted for expl..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:48:05,611 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:48:05,710 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:48:05,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:48:05,992 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:48:11,823 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:48:29,532 - INFO - Processed row 166: Question = In the context of penetration testing, which vulne..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:48:29,598 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:48:29,746 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:48:36,878 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:49:00,074 - INFO - Processed row 167: Question = During a red team assessment, if the objective is ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:49:00,148 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:49:00,254 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:49:05,731 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:49:38,987 - INFO - Processed row 168: Question = In a red team operation, if the objective is to ma..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:49:39,061 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:49:39,167 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:49:44,702 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:50:07,203 - INFO - Processed row 169: Question = In a red team operation aimed at gaining initial a..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:50:07,269 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:50:07,377 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:50:13,016 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:50:45,189 - INFO - Processed row 170: Question = In the context of advanced persistent threats (APT..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:50:45,342 - INFO - Temporarily saved Advanced RAG results up to row 170.
+2025-07-28 11:50:45,377 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:50:45,519 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:50:51,179 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:51:17,254 - INFO - Processed row 171: Question = During a red team operation, if you need to use a ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:51:17,319 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:51:17,449 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:51:23,218 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:51:53,521 - INFO - Processed row 172: Question = In the context of buffer overflow exploitation on ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:51:53,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:51:53,729 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:51:59,339 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:52:25,455 - INFO - Processed row 173: Question = In an advanced persistent threat (APT) campaign ta..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:52:25,507 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:52:25,609 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:52:25,735 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:52:25,874 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:52:31,336 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:52:58,451 - INFO - Processed row 174: Question = During a red team assessment, what type of vulnera..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:52:58,506 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:52:58,618 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:52:58,779 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:52:58,921 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:53:05,951 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:53:37,189 - INFO - Processed row 175: Question = In the context of penetration testing, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:53:37,243 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:53:37,337 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:53:37,468 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:53:37,615 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:53:44,724 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:54:13,402 - INFO - Processed row 176: Question = In the context of conducting penetration testing o..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:54:13,454 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:54:13,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:54:20,070 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:54:40,550 - INFO - Processed row 177: Question = In the context of post-exploitation, which techniq..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:54:40,599 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:54:40,714 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:54:40,843 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:54:40,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:54:46,409 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:55:19,609 - INFO - Processed row 178: Question = Which penetration testing technique would be most ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:55:19,662 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:55:19,772 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:55:19,902 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:55:20,039 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:55:27,060 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:56:00,296 - INFO - Processed row 179: Question = In malware analysis, which technique is most effec..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:56:00,341 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:00,478 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:05,455 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:56:29,257 - INFO - Processed row 180: Question = During a red team exercise, if the aim is to exfil..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:56:29,360 - INFO - Temporarily saved Advanced RAG results up to row 180.
+2025-07-28 11:56:29,402 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:29,541 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:29,663 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:29,799 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:37,154 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:56:48,118 - INFO - Processed row 181: Question = In the context of cryptographic exploits, which at..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:56:48,171 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:48,304 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:48,468 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:48,609 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:56:54,988 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:57:30,983 - INFO - Processed row 182: Question = In the context of advanced penetration testing, wh..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:57:31,032 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:57:31,126 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:57:38,203 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:58:18,745 - INFO - Processed row 183: Question = In a red team operation, which technique is most e..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:58:18,798 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:58:19,019 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:58:24,207 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:59:03,300 - INFO - Processed row 184: Question = In the context of red team operations targeting a ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:59:03,363 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:59:03,491 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:59:08,855 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 11:59:39,866 - INFO - Processed row 185: Question = In conducting a red team engagement, what initial ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 11:59:39,914 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:59:40,009 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:59:40,126 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:59:40,244 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 11:59:48,182 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:00:18,044 - INFO - Processed row 186: Question = In the process of exploit development, which vulne..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:00:18,097 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:18,211 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:18,341 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:18,489 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:24,120 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:00:38,110 - INFO - Processed row 187: Question = What is an effective technique used by advanced ma..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:00:38,154 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:38,264 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:38,358 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:38,491 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:43,971 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:00:55,813 - INFO - Processed row 188: Question = During a penetration testing assignment, which att..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:00:55,867 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:00:55,985 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:01:01,291 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:01:33,986 - INFO - Processed row 189: Question = In a red team operation, if the goal is to maintai..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:01:34,057 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:01:34,217 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:01:34,371 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:01:34,536 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:01:41,286 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:02:03,556 - INFO - Processed row 190: Question = In a penetration test, if you encounter a system t..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:02:03,663 - INFO - Temporarily saved Advanced RAG results up to row 190.
+2025-07-28 12:02:03,707 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:03,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:03,978 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:04,116 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:10,402 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:02:26,718 - INFO - Processed row 191: Question = In a red team operation, which tool would be most ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:02:26,768 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:26,888 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:27,037 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:27,199 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:33,186 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:02:56,338 - INFO - Processed row 192: Question = In the context of advanced persistent threats (APT..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:02:56,392 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:02:56,495 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:03:02,336 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:03:24,534 - INFO - Processed row 193: Question = In an advanced persistent threat (APT) scenario, w..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:03:24,603 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:03:24,707 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:03:30,446 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:03:46,778 - INFO - Processed row 194: Question = In the context of modern browser exploit developme..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:03:46,840 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:03:46,963 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:03:47,056 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:03:47,191 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:03:53,597 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:04:16,890 - INFO - Processed row 195: Question = In a red team operation, which method would be mos..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:04:16,944 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:04:17,065 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:04:22,143 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:04:47,117 - INFO - Processed row 196: Question = In a red team assessment, if you need to exploit a..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:04:47,168 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:04:47,267 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:04:52,743 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:05:14,175 - INFO - Processed row 197: Question = In the context of a red team exercise, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:05:14,231 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:05:14,344 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:05:14,433 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:05:14,564 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:05:20,492 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:05:44,223 - INFO - Processed row 198: Question = When preparing for the exploitation phase of a tar..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:05:44,278 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:05:44,388 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:05:44,525 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:05:44,663 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:05:50,332 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:06:18,091 - INFO - Processed row 199: Question = In the context of penetration testing, which tool ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:06:18,138 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:06:18,252 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:06:18,378 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:06:18,503 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:06:25,126 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:06:54,687 - INFO - Processed row 200: Question = Which attack exploits the error messages returned ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:06:54,810 - INFO - Temporarily saved Advanced RAG results up to row 200.
+2025-07-28 12:06:54,856 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:06:54,949 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:06:55,073 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:06:55,214 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:07:01,920 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:07:41,684 - INFO - Processed row 201: Question = Which vulnerability exploitation was specifically ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:07:41,739 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:07:41,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:07:47,347 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:08:16,787 - INFO - Processed row 202: Question = During a red team operation targeting a corporate ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:08:16,833 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:08:16,931 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:08:17,069 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:08:17,202 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:08:23,811 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:09:05,083 - INFO - Processed row 203: Question = In the context of reverse engineering a piece of m..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:09:05,134 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:09:05,237 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:09:10,342 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:09:37,886 - INFO - Processed row 204: Question = In a red team engagement, which technique is least..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:09:37,935 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:09:38,044 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:09:44,035 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:10:20,834 - INFO - Processed row 205: Question = In exploit development, which technique is most ef..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:10:20,882 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:10:20,992 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:10:25,915 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:10:56,402 - INFO - Processed row 206: Question = In a red team operation, if the objective is to ga..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:10:56,459 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:10:56,578 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:10:56,680 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:10:56,824 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:11:03,121 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:11:12,842 - INFO - Processed row 207: Question = In the context of web application penetration test..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:11:12,894 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:11:12,997 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:11:18,998 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:11:46,942 - INFO - Processed row 208: Question = In the context of exploit development, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:11:46,991 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:11:47,099 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:11:47,236 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:11:47,382 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:11:54,712 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:12:34,110 - INFO - Processed row 209: Question = During a red team operation, if the target system ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:12:34,157 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:12:34,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:12:34,376 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:12:34,511 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:12:40,170 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:13:03,823 - INFO - Processed row 210: Question = During a red team operation, which tool allows exp..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:13:03,937 - INFO - Temporarily saved Advanced RAG results up to row 210.
+2025-07-28 12:13:03,983 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:04,087 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:09,596 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:13:35,695 - INFO - Processed row 211: Question = In the context of exploit development, if an analy..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:13:35,744 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:35,886 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:36,052 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:36,159 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:42,358 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:13:56,707 - INFO - Processed row 212: Question = Which of the following malware stealth techniques ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:13:56,751 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:56,886 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:57,013 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:13:57,128 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:14:03,146 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:14:24,828 - INFO - Processed row 213: Question = In the context of penetration testing, which tool ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:14:24,883 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:14:25,012 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:14:30,894 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:14:53,432 - INFO - Processed row 214: Question = In the context of exploit development, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:14:53,476 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:14:53,611 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:15:00,996 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:15:37,159 - INFO - Processed row 215: Question = In the context of exploit development, what is the..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:15:37,225 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:15:37,351 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:15:37,502 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:15:37,656 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:15:43,159 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:16:11,137 - INFO - Processed row 216: Question = In the context of penetration testing, which attac..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:16:11,186 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:16:11,288 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:16:16,921 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:16:39,569 - INFO - Processed row 217: Question = During a red-team engagement focused on consuming ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:16:39,613 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:16:39,741 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:16:39,860 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:16:39,996 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:16:47,085 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:17:18,163 - INFO - Processed row 218: Question = In the context of ethical penetration testing, whi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:17:18,208 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:17:18,303 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:17:18,433 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:17:18,546 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:17:24,914 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:17:57,045 - INFO - Processed row 219: Question = In a penetration testing scenario targeting a web ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:17:57,089 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:17:57,188 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:18:02,333 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:18:36,526 - INFO - Processed row 220: Question = In a sophisticated red team operation aimed at mai..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:18:36,639 - INFO - Temporarily saved Advanced RAG results up to row 220.
+2025-07-28 12:18:36,685 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:18:36,808 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:18:42,512 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:19:17,794 - INFO - Processed row 221: Question = In a red team operation aimed at assessing network..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:19:17,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:19:17,991 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:19:24,001 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:19:51,654 - INFO - Processed row 222: Question = During an internal red team exercise, you are task..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:19:51,708 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:19:51,833 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:19:57,263 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:20:30,088 - INFO - Processed row 223: Question = In the context of an advanced persistent threat (A..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:20:30,146 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:20:30,329 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:20:30,423 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:20:30,570 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:20:35,822 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:21:07,299 - INFO - Processed row 224: Question = In the context of exploit development, which attac..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:21:07,358 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:21:07,490 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:21:12,953 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:21:55,632 - INFO - Processed row 225: Question = In the context of social engineering within red te..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:21:55,695 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:21:55,792 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:21:55,926 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:21:56,055 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:01,556 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:22:20,076 - INFO - Processed row 226: Question = In the context of web application security, which ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:22:20,123 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:20,250 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:20,417 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:20,566 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:26,400 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:22:51,171 - INFO - Processed row 227: Question = Which vulnerability is primarily exploited to exec..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:22:51,229 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:51,344 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:51,484 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:51,618 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:22:57,074 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:23:23,374 - INFO - Processed row 228: Question = In the context of security vulnerabilities, which ..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:23:23,433 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:23:23,539 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:23:29,384 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:24:10,307 - INFO - Processed row 229: Question = In the context of an advanced persistent threat (A..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:24:10,363 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:10,459 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:10,583 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:10,709 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:16,470 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:24:30,104 - INFO - Processed row 230: Question = In the context of advanced penetration testing, wh..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:24:30,220 - INFO - Temporarily saved Advanced RAG results up to row 230.
+2025-07-28 12:24:30,257 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:30,385 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:30,460 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:30,572 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:35,912 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:24:50,085 - INFO - Processed row 231: Question = In the context of buffer overflow attacks, what is..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:24:50,131 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:50,269 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:50,392 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:50,510 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:24:56,583 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:25:22,746 - INFO - Processed row 232: Question = In a modern, high-security environment, which tech..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:25:22,792 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:25:22,932 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:25:23,064 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:25:23,187 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:25:28,806 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:25:58,239 - INFO - Processed row 233: Question = In the context of penetration testing, which techn..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:25:58,282 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:25:58,418 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:26:04,006 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:26:33,612 - INFO - Processed row 234: Question = When attempting to uncover vulnerabilities in a cu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:26:33,655 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:26:33,779 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:26:33,899 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:26:34,005 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:26:39,621 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:27:12,645 - INFO - Processed row 235: Question = In the context of exploit development, which vulne..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:27:12,705 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:27:12,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:27:12,991 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:27:13,117 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:27:19,007 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:27:44,398 - INFO - Processed row 236: Question = In the context of malware analysis, which method i..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:27:44,439 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:27:44,578 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:27:44,701 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:27:44,821 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:27:51,691 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:28:12,981 - INFO - Processed row 237: Question = In the context of network-level exploits, which vu..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:28:13,035 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:28:13,134 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:28:13,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:28:13,361 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:28:19,527 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:28:46,450 - INFO - Processed row 238: Question = In the context of cryptographic flaws, which attac..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:28:46,512 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:28:46,617 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:28:52,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:29:26,588 - INFO - Processed row 239: Question = In the context of modern exploit development again..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:29:26,644 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:29:26,745 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:29:26,870 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:29:27,025 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:29:33,747 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:30:19,541 - INFO - Processed row 240: Question = Which vulnerability technique involves deliberatel..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:30:19,674 - INFO - Temporarily saved Advanced RAG results up to row 240.
+2025-07-28 12:30:19,720 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:30:19,909 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:30:19,998 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:30:20,144 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:30:25,698 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:30:48,703 - INFO - Processed row 241: Question = During a penetration testing exercise, if you iden..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:30:48,803 - INFO - Advanced RAG processing complete. Final results saved to 'advanced_rag_results_full.xlsx'.
+2025-07-28 12:38:12,875 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-28 12:38:19,272 - INFO - Use pytorch device: cpu
+2025-07-28 12:38:19,791 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-28 12:38:28,035 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:38:28,311 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:38:28,438 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:38:28,543 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:39:20,927 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-28 12:39:45,314 - INFO - Processed row 1: Question = What is the most effective technique for identifyi..., Source = Advanced RAG (Hybrid + Reranked), Context = 10
+2025-07-28 12:39:46,898 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:39:46,962 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-28 12:39:51,798 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
