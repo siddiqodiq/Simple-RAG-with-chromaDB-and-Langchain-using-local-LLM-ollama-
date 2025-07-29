@@ -107,41 +107,45 @@ def main():
         try:
             print("⏳ Processing with Advanced RAG...")
             result = retrieval_chain.invoke({"input": query})
-            
+
             # Enhanced result display
             if result["context"]:
                 print(f"\n✅ Assistant is using Advanced RAG (Mode: {RETRIEVAL_MODE.upper()})")
                 print(f"📄 Retrieved {len(result['context'])} relevant documents:")
                 print("\n" + "="*50 + " SOURCES " + "="*50)
-                
                 for i, doc in enumerate(result["context"]):
                     print(f"\n📖 Source {i+1}:")
                     print(f"   📁 Document: {doc.metadata.get('source', 'Unknown')}")
                     print(f"   🆔 Chunk ID: {doc.metadata.get('chunk_id', 'Unknown')}")
-                    
-                    # Show retrieval metadata if available
                     if 'retrieval_type' in doc.metadata:
                         print(f"   🔍 Retrieval: {doc.metadata.get('retrieval_type', 'unknown')}")
                     if 'retrieval_rank' in doc.metadata:
                         print(f"   🏆 Rank: {doc.metadata.get('retrieval_rank', 'unknown')}")
                     if 'source_query' in doc.metadata:
                         print(f"   ❓ Query: {doc.metadata.get('source_query', 'unknown')}")
-                    
                     print(f"   📝 Content: {doc.page_content[:200]}...")
                     print("   " + "-"*80)
-                    
             else:
                 print("\n⚠️  No relevant documents found. Using base model knowledge.")
-            
+
             print("\n" + "="*50 + " ANSWER " + "="*50)
-            print(f"🤖 Assistant: {result['answer']}")
+            
+            # --- STREAMING OUTPUT ---
+            if hasattr(llm, "stream"):
+                # Gunakan streaming jika LLM mendukung
+                print("🤖 Assistant: ", end="", flush=True)
+                stream = llm.stream(result["answer"])
+                for chunk in stream:
+                    print(chunk, end="", flush=True)
+                print()
+            else:
+                # Fallback: tampilkan sekaligus
+                print(f"🤖 Assistant: {result['answer']}")
             print("="*108)
             
         except Exception as e:
             print(f"❌ Error: {e}")
             print("🔄 Falling back to basic retrieval...")
-            
-            # Fallback to basic retrieval
             try:
                 basic_retriever = vector_store.as_retriever(search_kwargs={"k": 5})
                 basic_chain = create_retrieval_chain(basic_retriever, combine_docs_chain)
