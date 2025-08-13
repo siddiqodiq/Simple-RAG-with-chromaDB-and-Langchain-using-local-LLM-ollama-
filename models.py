@@ -2,8 +2,6 @@ import os
 import warnings
 from langchain_ollama import OllamaEmbeddings, ChatOllama
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.retrievers.document_compressors import LLMChainExtractor
-from langchain.retrievers import ContextualCompressionRetriever
 from sentence_transformers import CrossEncoder
 import numpy as np
 from typing import List, Dict, Any
@@ -49,9 +47,6 @@ class AdvancedModels:
             print(f"Warning: Could not load cross-encoder model: {e}")
             print("Using fallback similarity scoring...")
             self.reranker = None
-        
-        # Context compressor untuk advanced filtering
-        self.compressor = LLMChainExtractor.from_llm(self.model_ollama)
 
     def embed_query_safe(self, query: str) -> List[float]:
         """
@@ -152,31 +147,6 @@ class AdvancedModels:
             print(f"Warning: Reranking failed: {e}")
             print("Falling back to original document order...")
             return documents[:top_k]
-
-    def enhance_query(self, query: str) -> List[str]:
-        """
-        Generate multiple query variations untuk improved retrieval.
-        """
-        enhanced_queries = [query]  # Original query
-        
-        # Add query expansions
-        # Simple keyword expansion untuk cybersecurity terms
-        cybersec_synonyms = {
-            'hack': ['exploit', 'penetrate', 'compromise'],
-            'vulnerability': ['weakness', 'flaw', 'security hole'],
-            'malware': ['virus', 'trojan', 'malicious software'],
-            'attack': ['assault', 'offensive', 'breach'],
-            'penetration testing': ['pentest', 'security testing', 'ethical hacking']
-        }
-        
-        # Add expanded queries
-        for term, synonyms in cybersec_synonyms.items():
-            if term.lower() in query.lower():
-                for synonym in synonyms:
-                    enhanced_query = query.replace(term, synonym)
-                    enhanced_queries.append(enhanced_query)
-                    
-        return enhanced_queries[:3]  # Return top 3 variations
 
     def invoke_llm_safe(self, prompt: str, max_retries: int = 3) -> str:
         """

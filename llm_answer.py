@@ -43,7 +43,7 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-# Initialize Advanced Hybrid Retriever
+# Initialize Hybrid Retriever (tanpa query enhancement)
 retriever = HybridRetriever(
     vector_store=vector_store,
     models=models,
@@ -52,8 +52,7 @@ retriever = HybridRetriever(
     final_k=10,              # Top 10 most relevant after reranking
     dense_weight=0.75,       # Higher weight for semantic similarity
     sparse_weight=0.25,      # Lower weight for keyword matching
-    enable_reranking=True,   # Enable cross-encoder reranking
-    enable_query_enhancement=True  # Enable query expansion
+    enable_reranking=True    # Enable cross-encoder reranking
 )
 
 # Create advanced retrieval chain
@@ -96,14 +95,14 @@ def generate_advanced_llm_answer(question, choices):
             sources = ["-"]
             retrieval_stats = "No relevant documents found"
         
-        # Enhanced response format
+        # Update enhanced_features field
         response = {
             "answer": result["answer"].strip(),
             "source": answer_source,
             "sources": "\n".join(sources) if answer_source.startswith("Advanced RAG") else "-",
             "retrieval_stats": retrieval_stats,
             "context_length": len(result.get("context", [])),
-            "enhanced_features": "Hybrid Search + Reranking + Query Enhancement"
+            "enhanced_features": "Hybrid Search + Reranking"  # Removed Query Enhancement
         }
         
         return response
@@ -154,7 +153,7 @@ save_interval = 10
 
 print("🚀 Starting Advanced RAG Processing...")
 print(f"📊 Dataset size: {len(df)} questions")
-print(f"🔧 Features: Hybrid Retrieval + Reranking + Query Enhancement")
+print(f"🔧 Features: Hybrid Retrieval + Reranking")  # Removed Query Enhancement
 print("-" * 60)
 
 for index, row in df.iterrows():

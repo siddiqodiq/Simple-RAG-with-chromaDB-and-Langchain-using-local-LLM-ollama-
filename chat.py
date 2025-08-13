@@ -5,9 +5,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 from langchain_chroma import Chroma
-from langchain.retrievers import ContextualCompressionRetriever
 from models import AdvancedModels
-from advanced_retriever import HybridRetriever, MultiQueryRetriever
+from advanced_retriever import HybridRetriever
 
 # Initialize the advanced models
 models = AdvancedModels()
@@ -28,7 +27,7 @@ prompt = ChatPromptTemplate.from_messages(
             "system",
             "You are an expert cybersecurity assistant specializing in penetration testing and offensive security. "
             "Your task is to provide comprehensive and accurate answers based on the provided documents. "
-            "The documents have been retrieved using advanced semantic and keyword search techniques, "
+            "The documents have been retrieved using hybrid search with semantic and keyword techniques, "
             "and have been reranked for relevance to the user's question.\n\n"
             "Guidelines:\n"
             "1. Prioritize information from the provided context documents\n"
@@ -42,11 +41,11 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-# Initialize Advanced Retrieval System
-def get_advanced_retriever(retrieval_mode="hybrid"):
+# Initialize Retrieval System
+def get_retriever(retrieval_mode="hybrid"):
     """
-    Get advanced retriever based on mode.
-    Modes: 'hybrid', 'multi_query', 'compressed', 'naive'
+    Get retriever based on mode.
+    Modes: 'hybrid', 'naive'
     """
     if retrieval_mode == "hybrid":
         # Hybrid Retriever (Dense + Sparse + Reranking)
@@ -58,25 +57,7 @@ def get_advanced_retriever(retrieval_mode="hybrid"):
             final_k=8,            # Final top 8 after reranking
             dense_weight=0.7,     # 70% weight for semantic search
             sparse_weight=0.3,    # 30% weight for keyword search
-            enable_reranking=True,
-            enable_query_enhancement=True
-        )
-    
-    elif retrieval_mode == "multi_query":
-        # Multi-Query Retriever
-        base_retriever = vector_store.as_retriever(search_kwargs={"k": 10})
-        return MultiQueryRetriever(
-            base_retriever=base_retriever,
-            models=models,
-            num_queries=3
-        )
-    
-    elif retrieval_mode == "compressed":
-        # Contextual Compression Retriever
-        base_retriever = vector_store.as_retriever(search_kwargs={"k": 15})
-        return ContextualCompressionRetriever(
-            base_compressor=models.compressor,
-            base_retriever=base_retriever
+            enable_reranking=True
         )
     
     else:  # naive
@@ -84,18 +65,18 @@ def get_advanced_retriever(retrieval_mode="hybrid"):
         return vector_store.as_retriever(search_kwargs={"k": 10})
 
 # Select retrieval mode
-RETRIEVAL_MODE = "hybrid"  # Options: 'hybrid', 'multi_query', 'compressed', 'naive'
-retriever = get_advanced_retriever(RETRIEVAL_MODE)
+RETRIEVAL_MODE = "hybrid"  # Options: 'hybrid', 'naive'
+retriever = get_retriever(RETRIEVAL_MODE)
 
-# Create advanced retrieval chain
+# Create retrieval chain
 combine_docs_chain = create_stuff_documents_chain(llm, prompt)
 retrieval_chain = create_retrieval_chain(retriever, combine_docs_chain)
 
 # Main loop with advanced features
 def main():
-    print(f"🚀 Advanced RAG Chat System Initialized!")
+    print(f"🚀 RAG Chat System Initialized!")
     print(f"📊 Retrieval Mode: {RETRIEVAL_MODE.upper()}")
-    print(f"🔧 Features: Hybrid Search + Reranking + Query Enhancement")
+    print(f"🔧 Features: Hybrid Search + Reranking")
     print(f"📚 Database: ChromaDB with {vector_store._collection.count()} documents")
     print("-" * 60)
     
@@ -105,12 +86,12 @@ def main():
             break
 
         try:
-            print("⏳ Processing with Advanced RAG...")
+            print("⏳ Processing with RAG...")
             result = retrieval_chain.invoke({"input": query})
 
             # Enhanced result display
             if result["context"]:
-                print(f"\n✅ Assistant is using Advanced RAG (Mode: {RETRIEVAL_MODE.upper()})")
+                print(f"\n✅ Assistant is using RAG (Mode: {RETRIEVAL_MODE.upper()})")
                 print(f"📄 Retrieved {len(result['context'])} relevant documents:")
                 print("\n" + "="*50 + " SOURCES " + "="*50)
                 for i, doc in enumerate(result["context"]):
@@ -121,8 +102,6 @@ def main():
                         print(f"   🔍 Retrieval: {doc.metadata.get('retrieval_type', 'unknown')}")
                     if 'retrieval_rank' in doc.metadata:
                         print(f"   🏆 Rank: {doc.metadata.get('retrieval_rank', 'unknown')}")
-                    if 'source_query' in doc.metadata:
-                        print(f"   ❓ Query: {doc.metadata.get('source_query', 'unknown')}")
                     print(f"   📝 Content: {doc.page_content[:200]}...")
                     print("   " + "-"*80)
             else:

@@ -5,18 +5,15 @@ from langchain_core.retrievers import BaseRetriever
 from langchain_core.callbacks import CallbackManagerForRetrieverRun
 from langchain_chroma import Chroma
 from rank_bm25 import BM25Okapi
-import faiss
 from models import AdvancedModels
-import uuid
 from pydantic import Field
 
 class HybridRetriever(BaseRetriever):
     """
-    Advanced Hybrid Retriever yang menggabungkan:
+    Hybrid Retriever yang menggabungkan:
     1. Dense retrieval (semantic search)
     2. Sparse retrieval (BM25/keyword search)
     3. Reranking dengan cross-encoder
-    4. Query enhancement
     """
     
     # Define Pydantic fields for compatibility
@@ -28,7 +25,6 @@ class HybridRetriever(BaseRetriever):
     dense_weight: float = Field(default=0.7, description="Weight for dense retrieval")
     sparse_weight: float = Field(default=0.3, description="Weight for sparse retrieval")
     enable_reranking: bool = Field(default=True, description="Enable cross-encoder reranking")
-    enable_query_enhancement: bool = Field(default=True, description="Enable query enhancement")
     
     # Private fields for BM25
     bm25: Optional[BM25Okapi] = Field(default=None, exclude=True)
@@ -48,7 +44,6 @@ class HybridRetriever(BaseRetriever):
         dense_weight: float = 0.7,
         sparse_weight: float = 0.3,
         enable_reranking: bool = True,
-        enable_query_enhancement: bool = True,
         **kwargs
     ):
         super().__init__(
@@ -60,7 +55,6 @@ class HybridRetriever(BaseRetriever):
             dense_weight=dense_weight,
             sparse_weight=sparse_weight,
             enable_reranking=enable_reranking,
-            enable_query_enhancement=enable_query_enhancement,
             **kwargs
         )
         
@@ -167,33 +161,16 @@ class HybridRetriever(BaseRetriever):
     ) -> List[Document]:
         """Main retrieval method."""
         
-        # 1. Query Enhancement
-        queries = [query]
-        if self.enable_query_enhancement:
-            try:
-                enhanced_queries = self.models.enhance_query(query)
-                queries.extend(enhanced_queries)
-            except Exception as e:
-                print(f"Error in query enhancement: {e}")
+        # Dense retrieval
+        dense_docs = self._dense_retrieval(query, self.dense_k)
         
-        all_docs = []
+        # Sparse retrieval
+        sparse_docs = self._sparse_retrieval(query, self.sparse_k)
         
-        # 2. Retrieve untuk setiap query variant
-        for q in queries:
-            # Dense retrieval
-            dense_docs = self._dense_retrieval(q, self.dense_k)
-            
-            # Sparse retrieval
-            sparse_docs = self._sparse_retrieval(q, self.sparse_k)
-            
-            # Merge results
-            merged_docs = self._merge_and_deduplicate(dense_docs, sparse_docs)
-            all_docs.extend(merged_docs)
+        # Merge results
+        final_docs = self._merge_and_deduplicate(dense_docs, sparse_docs)
         
-        # 3. Deduplicate all documents
-        final_docs = self._merge_and_deduplicate(all_docs, [])
-        
-        # 4. Reranking
+        # Reranking
         if self.enable_reranking and final_docs:
             try:
                 final_docs = self.models.rerank_documents(query, final_docs, self.final_k)
@@ -203,10 +180,10 @@ class HybridRetriever(BaseRetriever):
         else:
             final_docs = final_docs[:self.final_k]
         
-        # 5. Add retrieval metadata
+        # Add retrieval metadata
         for i, doc in enumerate(final_docs):
             doc.metadata['retrieval_rank'] = i + 1
-            doc.metadata['retrieval_method'] = 'hybrid_advanced'
+            doc.metadata['retrieval_method'] = 'hybrid'
             
         return final_docs
 
