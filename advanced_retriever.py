@@ -40,7 +40,7 @@ class HybridRetriever(BaseRetriever):
         models: AdvancedModels,
         dense_k: int = 20,
         sparse_k: int = 20,
-        final_k: int = 10,
+        final_k: int = 5,
         dense_weight: float = 0.7,
         sparse_weight: float = 0.3,
         enable_reranking: bool = True,

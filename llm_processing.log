@@ -185,7 +185,7 @@ Explanation: Heap spraying is a technique used in modern exploit development to 
 2025-06-22 17:52:27,679 - INFO - Processed row 46: Question = Which attack technique can be used to circumvent the Same-Origin Policy and gain unauthorized access to a victim's locale network by exploiting the trust relationship between the web browser and server?, Source = RAG (Knowledge Base)
 2025-06-22 17:52:27,756 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-22 17:52:29,185 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-06-22 17:53:08,408 - INFO - Processed row 47: Question = In the context of an advanced persistent threat (APT) campaign targeting a highly fortified international corporation's infrastructure, which technique is most likely to provide the adversary with a strategic advantage in maintaining long-term access to the victim’s network?, Source = RAG (Knowledge Base)
+2025-06-22 17:53:08,408 - INFO - Processed row 47: Question = In the context of an advanced persistent threat (APT) campaign targeting a highly fortified international corporation's infrastructure, which technique is most likely to provide the adversary with a strategic advantage in maintaining long-term access to the victimï¿½s network?, Source = RAG (Knowledge Base)
 2025-06-22 17:53:08,454 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-22 17:53:10,403 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-06-22 17:53:52,507 - INFO - Processed row 48: Question = In a penetration testing scenario, if the objective is to demonstrate the impact of poor input validation by altering the logic of database queries, which technique would be most effective?, Source = RAG (Knowledge Base)
@@ -551,7 +551,7 @@ Explanation: Heap spraying is a technique used in modern exploit development to 
 2025-06-22 19:16:42,008 - INFO - Processed row 164: Question = When assessing a custom application for vulnerabilities, what technique would likely be most effective for discovering buffer overflow vulnerabilities?, Source = RAG (Knowledge Base)
 2025-06-22 19:16:42,057 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-22 19:16:43,914 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-06-22 19:17:14,334 - INFO - Processed row 165: Question = Which vulnerability is primarily targeted for exploitation when an attacker inputs an unexpectedly high numerical value with the intent to cause a computation error to manipulate the system’s memory?, Source = RAG (Knowledge Base)
+2025-06-22 19:17:14,334 - INFO - Processed row 165: Question = Which vulnerability is primarily targeted for exploitation when an attacker inputs an unexpectedly high numerical value with the intent to cause a computation error to manipulate the systemï¿½s memory?, Source = RAG (Knowledge Base)
 2025-06-22 19:17:14,379 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-22 19:17:15,927 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-06-22 19:17:46,471 - INFO - Processed row 166: Question = In the context of penetration testing, which vulnerability is most likely to be exploited by a buffer overflow attack?, Source = RAG (Knowledge Base)
@@ -752,7 +752,7 @@ Explanation: Heap spraying is a technique used in modern exploit development to 
 2025-06-22 20:01:12,797 - INFO - Processed row 229: Question = In the context of an advanced persistent threat (APT) campaign, which of the following techniques would most likely be used to maintain persistence without leaving obvious artifacts on a target's filesystem?, Source = RAG (Knowledge Base)
 2025-06-22 20:01:12,837 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-22 20:01:14,699 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-06-22 20:01:38,870 - INFO - Processed row 230: Question = In the context of advanced penetration testing, which of the following tactics is most effective for gaining initial access to an internal corporate network’s critical infrastructure?, Source = RAG (Knowledge Base)
+2025-06-22 20:01:38,870 - INFO - Processed row 230: Question = In the context of advanced penetration testing, which of the following tactics is most effective for gaining initial access to an internal corporate networkï¿½s critical infrastructure?, Source = RAG (Knowledge Base)
 2025-06-22 20:01:38,957 - INFO - Temporarily saved results up to row 230.
 2025-06-22 20:01:39,002 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-22 20:01:40,710 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
@@ -934,7 +934,7 @@ Explanation: Heap spraying is a technique used in modern exploit development to 
 2025-06-23 08:52:43,116 - INFO - Processed row 46: Question = Which attack technique can be used to circumvent the Same-Origin Policy and gain unauthorized access to a victim's locale network by exploiting the trust relationship between the web browser and server?, Source = RAG (Knowledge Base)
 2025-06-23 08:52:43,153 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-23 08:52:44,698 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-06-23 08:53:24,058 - INFO - Processed row 47: Question = In the context of an advanced persistent threat (APT) campaign targeting a highly fortified international corporation's infrastructure, which technique is most likely to provide the adversary with a strategic advantage in maintaining long-term access to the victim’s network?, Source = RAG (Knowledge Base)
+2025-06-23 08:53:24,058 - INFO - Processed row 47: Question = In the context of an advanced persistent threat (APT) campaign targeting a highly fortified international corporation's infrastructure, which technique is most likely to provide the adversary with a strategic advantage in maintaining long-term access to the victimï¿½s network?, Source = RAG (Knowledge Base)
 2025-06-23 08:53:24,106 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-23 08:53:26,304 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-06-23 08:53:44,425 - INFO - Processed row 48: Question = In a penetration testing scenario, if the objective is to demonstrate the impact of poor input validation by altering the logic of database queries, which technique would be most effective?, Source = RAG (Knowledge Base)
@@ -1300,7 +1300,7 @@ Explanation: Heap spraying is a technique used in modern exploit development to 
 2025-06-23 10:05:56,552 - INFO - Processed row 164: Question = When assessing a custom application for vulnerabilities, what technique would likely be most effective for discovering buffer overflow vulnerabilities?, Source = RAG (Knowledge Base)
 2025-06-23 10:05:56,595 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-23 10:05:58,775 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-06-23 10:06:37,647 - INFO - Processed row 165: Question = Which vulnerability is primarily targeted for exploitation when an attacker inputs an unexpectedly high numerical value with the intent to cause a computation error to manipulate the system’s memory?, Source = RAG (Knowledge Base)
+2025-06-23 10:06:37,647 - INFO - Processed row 165: Question = Which vulnerability is primarily targeted for exploitation when an attacker inputs an unexpectedly high numerical value with the intent to cause a computation error to manipulate the systemï¿½s memory?, Source = RAG (Knowledge Base)
 2025-06-23 10:06:37,673 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-23 10:06:39,653 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2025-06-23 10:07:08,499 - INFO - Processed row 166: Question = In the context of penetration testing, which vulnerability is most likely to be exploited by a buffer overflow attack?, Source = RAG (Knowledge Base)
@@ -1501,7 +1501,7 @@ Explanation: Heap spraying is a technique used in modern exploit development to 
 2025-06-23 10:45:30,680 - INFO - Processed row 229: Question = In the context of an advanced persistent threat (APT) campaign, which of the following techniques would most likely be used to maintain persistence without leaving obvious artifacts on a target's filesystem?, Source = RAG (Knowledge Base)
 2025-06-23 10:45:30,714 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-23 10:45:32,762 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-06-23 10:46:18,339 - INFO - Processed row 230: Question = In the context of advanced penetration testing, which of the following tactics is most effective for gaining initial access to an internal corporate network’s critical infrastructure?, Source = RAG (Knowledge Base)
+2025-06-23 10:46:18,339 - INFO - Processed row 230: Question = In the context of advanced penetration testing, which of the following tactics is most effective for gaining initial access to an internal corporate networkï¿½s critical infrastructure?, Source = RAG (Knowledge Base)
 2025-06-23 10:46:18,424 - INFO - Temporarily saved results up to row 230.
 2025-06-23 10:46:18,462 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
 2025-06-23 10:46:21,606 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"

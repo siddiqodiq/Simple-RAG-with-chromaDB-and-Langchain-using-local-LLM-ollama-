@@ -49,7 +49,7 @@ retriever = HybridRetriever(
     models=models,
     dense_k=20,              # More documents for comprehensive analysis
     sparse_k=15,             # Additional keyword-based results
-    final_k=10,              # Top 10 most relevant after reranking
+    final_k=5,              # Top 10 most relevant after reranking
     dense_weight=0.75,       # Higher weight for semantic similarity
     sparse_weight=0.25,      # Lower weight for keyword matching
     enable_reranking=True    # Enable cross-encoder reranking
@@ -203,7 +203,7 @@ for index, row in df.iterrows():
         print(f"💾 Auto-saved progress: {index + 1}/{len(df)} completed")
 
 # Final save with enhanced results
-output_filename = "advanced_rag_results_full.xlsx"
+output_filename = "advanced_rag_results_full_v3.xlsx"
 df.to_excel(output_filename, index=False, engine="openpyxl")
 logging.info(f"Advanced RAG processing complete. Final results saved to '{output_filename}'.")
 
